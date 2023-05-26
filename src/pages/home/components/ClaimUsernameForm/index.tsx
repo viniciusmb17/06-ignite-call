@@ -37,7 +37,11 @@ export function ClaimUsernameForm() {
 
   return (
     <>
-      <Form as="form" onSubmit={handleSubmit(handleClaimUsername)}>
+      <Form
+        as="form"
+        onSubmit={handleSubmit(handleClaimUsername)}
+        autoComplete="off"
+      >
         <TextInput
           size="sm"
           prefix="ignite.com/"
