@@ -1,6 +1,6 @@
 import { Box, Text, styled } from '@ignite-ui/react'
 
-export const PorfileBox = styled(Box, {
+export const ProfileBox = styled(Box, {
   marginTop: '$6',
   display: 'flex',
   flexDirection: 'column',
