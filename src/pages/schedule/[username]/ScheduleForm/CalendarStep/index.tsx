@@ -61,7 +61,7 @@ export function CalendarStep() {
           </TimePickerHeader>
 
           <TimePickerList>
-            {availability?.availableTimes.map((hour) => {
+            {availability?.possibleTimes.map((hour) => {
               return (
                 <TimePickerItem
                   key={hour}
